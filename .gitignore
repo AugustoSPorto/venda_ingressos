@@ -1,2 +1,141 @@
-frontend/node_modules
-target
+cd ~/venda_ingressos/projeto-sd-2025
+
+cat > .gitignore << 'EOF'
+# ================================
+# Rust / Cargo
+# ================================
+target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# ================================
+# Node.js / Frontend
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+frontend/build/
+frontend/dist/
+frontend/.cache/
+
+# Dependencies
+package-lock.json
+yarn.lock
+
+# ================================
+# Docker
+# ================================
+.dockerignore
+
+# ================================
+# IDEs e Editores
+# ================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ / PyCharm / WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+.*.sw?
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ================================
+# Sistema Operacional
+# ================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# ================================
+# Logs e Temporários
+# ================================
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# ================================
+# Environment / Secrets
+# ================================
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ================================
+# Backups e Patches
+# ================================
+*.orig
+*.rej
+*.patch
+*.diff
+*~
+
+# ================================
+# Testes e Coverage
+# ================================
+coverage/
+.nyc_output/
+*.lcov
+
+# ================================
+# Dados Locais (opcional)
+# ================================
+# Descomentar se quiser ignorar dados locais do Postgres/Redis
+# data/
+# postgres-data/
+# redis-data/
+
+# ================================
+# Arquivos Gerados / Temporários
+# ================================
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ================================
+# Arquivos Específicos do Projeto
+# ================================
+# Adicione aqui arquivos específicos que não devem ir pro Git
+# Exemplo:
+# meus_testes/
+# experimentos/
+
+EOF
