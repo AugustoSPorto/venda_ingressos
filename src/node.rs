@@ -454,12 +454,13 @@ async fn handle_checkout(
     };
 
     if !is_leader {
-        // Redirecionar para o líder
+        // Redirecionar para o líder (substituir nome do container por localhost)
         if let Some(leader_addr) = leader_http {
-            let url = format!(
-                "http://{}/checkout",
-                leader_addr
-            );
+            let public_addr = leader_addr
+                .replace("node1", "localhost")
+                .replace("node2", "localhost")
+                .replace("node3", "localhost");
+            let url = format!("http://{}/checkout", public_addr);
             return Redirect::temporary(&url).into_response();
         }
         return (StatusCode::SERVICE_UNAVAILABLE, "no leader elected yet").into_response();
