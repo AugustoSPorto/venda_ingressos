@@ -1,0 +1,11 @@
+/home/guto/Downloads/venda_ingressos/target/debug/deps/tinyvec-a315986c6cbbb2e0.d: /home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/lib.rs /home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/array.rs /home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/array/const_generic_impl.rs /home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/arrayvec.rs /home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/arrayvec_drain.rs /home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/slicevec.rs /home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/tinyvec.rs
+
+/home/guto/Downloads/venda_ingressos/target/debug/deps/libtinyvec-a315986c6cbbb2e0.rmeta: /home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/lib.rs /home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/array.rs /home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/array/const_generic_impl.rs /home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/arrayvec.rs /home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/arrayvec_drain.rs /home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/slicevec.rs /home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/tinyvec.rs
+
+/home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/lib.rs:
+/home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/array.rs:
+/home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/array/const_generic_impl.rs:
+/home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/arrayvec.rs:
+/home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/arrayvec_drain.rs:
+/home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/slicevec.rs:
+/home/guto/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.11.0/src/tinyvec.rs:
